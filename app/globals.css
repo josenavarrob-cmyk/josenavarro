@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-paper text-ink antialiased;
+}
+
+a {
+  @apply underline underline-offset-4 decoration-1;
+}
+
+.container-narrow {
+  @apply mx-auto w-full max-w-4xl px-6 sm:px-8;
+}

@@ -1,0 +1,9 @@
+<svg width="440" height="520" viewBox="0 0 440 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="440" height="520" fill="#F9F9F7"/>
+  <rect x="32" y="32" width="376" height="456" stroke="#D5D5CF" stroke-width="2"/>
+  <circle cx="220" cy="184" r="74" fill="#E9E9E3"/>
+  <path d="M96 404C96 334.412 152.412 278 222 278H218C287.588 278 344 334.412 344 404V430H96V404Z" fill="#E9E9E3"/>
+  <text x="220" y="466" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#6A6A64">
+    Headshot Placeholder
+  </text>
+</svg>
