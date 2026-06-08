@@ -41,11 +41,17 @@ export default function HomePage() {
 
       <section className="mt-20">
         <div className="mb-6 flex items-center justify-between">
-          <h2 className="text-2xl font-semibold tracking-tight">Featured essays</h2>
+          <h2 className="text-2xl font-semibold tracking-tight">
+            Featured essays
+          </h2>
           <Link href="/writing" className="text-sm">
             View all
           </Link>
         </div>
+
+        <p className="mb-8 max-w-reading text-sm text-muted">
+          Placeholder samples for layout preview only.
+        </p>
 
         <div className="space-y-8">
           {featured.map((post) => (

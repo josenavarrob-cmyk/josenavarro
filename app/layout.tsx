@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+import { ConstructionNotice } from "@/components/construction-notice";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 
@@ -42,6 +43,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <SiteHeader />
+        <ConstructionNotice />
         <main>{children}</main>
         <SiteFooter />
       </body>

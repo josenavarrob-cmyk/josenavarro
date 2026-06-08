@@ -20,6 +20,10 @@ export default function WritingPage() {
         <p className="mt-4 text-muted">
           Notes on work, technology, behavior, and the institutions around us.
         </p>
+        <p className="mt-4 text-sm text-muted">
+          The articles listed below are placeholder samples, not published
+          writing.
+        </p>
       </header>
 
       <div className="mt-12 space-y-8">

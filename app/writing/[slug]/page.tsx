@@ -54,7 +54,10 @@ export default async function WritingPostPage({ params }: WritingPageProps) {
     <div className="container-narrow py-14 sm:py-20">
       <article className="mx-auto max-w-reading">
         <header className="border-b border-line pb-8">
-          <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
+          <p className="text-sm text-muted">
+            Placeholder sample — not published writing.
+          </p>
+          <h1 className="mt-3 text-4xl font-semibold tracking-tight sm:text-5xl">
             {post.title}
           </h1>
           <p className="mt-4 text-sm text-muted">
